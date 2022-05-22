@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: yellowgreen; */
+      width: 100vw;
+      height: 100vh;
+}
+.choices{
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: center;
+}
+.choices h4{
+    font-size: 30px;
+    color: brown;
+}
+#user-choice{
+    margin: 0 auto;
+    padding:50px 0;
+    display:flex;
+    justify-content: space-between;
+     width: 40%;
+}
+#computer-result{
+    display: flex;
+    justify-content: center;
+width: 40%;
+}
+
+img{
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+}
+.result{
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: greenyellow;
+    width: 20%;
+    height: 7%;
+
+}
+#result{
+    
+    font-size: 30px;
+text-align: center;
+color:rgb(42, 44, 165);
+padding: 5px;
+ 
+}
+.scores{
+   
+    height: 30vh;
+    /* padding: 50px 0; */
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+}
+#player,#comp{
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 20px 30px;
+ background-color: black;
+}
+.player-score,.computer-score{
+    background-color: rgb(194, 190, 190);
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.title>h2,.title>h3{
+    padding: 30px;
+text-align: center;
+}
+
